@@ -1,0 +1,209 @@
+p,
+ul,
+h2 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding: 15px 25px 15px 25px;
+  background-color: #e7f3f3;
+}
+
+.friend-list {
+  text-align: center;
+  color: #3a1b14;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.listItem {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.status {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: 18px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #c6ec39;
+}
+
+/* .statusOffline {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: 18px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #e22e5d;
+} */
+
+.name {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 12px;
+  margin-left: 30px;
+  font-weight: 600;
+  color: #3a1b14;
+}
+
+.profile {
+  padding: 15px 25px 15px 25px;
+  background-color: #e7f3f3;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile .avatar {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #3a1b14;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tag {
+  margin-bottom: 15px;
+  color: #3a1b14;
+  text-transform: lowercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.location {
+  margin-bottom: 25px;
+  color: #3a1b14;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.statsItem {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  margin-right: 5px;
+}
+
+.statistics .title {
+  text-align: center;
+  color: #3a1b14;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.statlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.statisticsItem {
+  color: #3a1b14;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ecb939;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+.statisticsItem.label {
+  margin-bottom: 5px;
+}
+
+.transactionHistory {
+  margin: auto;
+  background: #f5ffff;
+  border-collapse: collapse;
+  text-align: left;
+}
+.transactionHistory th {
+  border-top: 1px solid #f5ffff;
+  border-bottom: 1px solid #f5ffff;
+  box-shadow: inset 0 1px 0 #f5ffff, inset 0 -1px 0 #f5ffff;
+  background: linear-gradient(#ecb939, #f3c85a);
+  padding: 10px 15px;
+  position: relative;
+}
+.transactionHistory th:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 25%;
+  width: 100%;
+}
+.transactionHistory tr:nth-child(odd) {
+  background: #ebf3f9;
+}
+.transactionHistory th:first-child {
+  border-left: 1px solid #f5ffff;
+  border-bottom: 1px solid #f5ffff;
+  box-shadow: inset 1px 1px 0 #f5ffff, inset 0 -1px 0 #f5ffff;
+}
+.transactionHistory th:last-child {
+  border-right: 1px solid #f5ffff;
+  border-bottom: 1px solid #f5ffff;
+  box-shadow: inset -1px 1px 0 #f5ffff, inset 0 -1px 0 #f5ffff;
+}
+.transactionHistory td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.transactionHistory tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 3px #a09f9d;
+}
+.transactionHistory tbody:hover tr:hover td {
+  color: #444444;
+  text-shadow: none;
+}
