@@ -30,7 +30,7 @@ function App() {
           />
         ))}
       </FriendList>
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
